@@ -70,7 +70,7 @@ def modificar_producto(inventario):
     if nuevo_stock > 0: inventario[codigo]['stock'] = nuevo_stock
     print("Producto actualizado.")
 
-def eliminar_producto(inventario):ss
+def eliminar_producto(inventario):
     codigo = leer_texto("Ingrese el código del producto a eliminar: ").upper()
     if codigo not in inventario:
         print("Aviso: El producto no existe.")
